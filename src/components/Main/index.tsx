@@ -1,9 +1,9 @@
 import * as S from "./styles";
 
-function Main({
+const Main = ({
   title = "React Avançado - Boilerplate",
   description = "TypeScript, ReactJS, NextJS e Styled Components"
-}) {
+}) => {
   return (
     <S.Wrapper>
       <S.Logo
@@ -18,6 +18,6 @@ function Main({
       />
     </S.Wrapper>
   );
-}
+};
 
 export default Main;
